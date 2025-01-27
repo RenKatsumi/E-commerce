@@ -35,8 +35,9 @@ h1, h2, h3 {
 }
 
 .search-bar {
-  width: 50%; /* Plenty of space for the search bar */
-  padding: 8px;
+  width: 70%; /* Plenty of space for the search bar */
+  padding: 12px 8px; /* Increase vertical padding to 12px */
+  line-height: 1.5; /* Set line-height to 1.5 for better text spacing */
   border-radius: 5px;
   border: none;
   outline: none;
@@ -59,6 +60,8 @@ h1, h2, h3 {
   padding: 8px 10px; /* Adjust padding for consistent button sizes */
   color: #232f3e;
   cursor: pointer;
+  padding: 12px 8px; /* Increase vertical padding to 12px */
+  line-height: 1.5; /* Set line-height to 1.5 for better text spacing */
 }
 
 .button.login {
